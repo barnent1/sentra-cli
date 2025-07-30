@@ -1,138 +1,137 @@
 # Sentra CLI Documentation
 
-> Complete documentation for the intelligent Claude Code command center
+> Choose your path: User or Developer documentation
 
-Welcome to the comprehensive documentation for Sentra CLI! Here you'll find everything you need to understand, install, configure, and master Sentra for autonomous project execution.
+Welcome to Sentra CLI documentation! We've organized our docs into two main sections to give you exactly what you need.
 
-## 📚 Documentation Structure
+## 📖 Choose Your Documentation Path
 
-### Getting Started
-- **[Getting Started Guide](getting-started.md)** - Installation, setup, and your first project
-- **[Understanding Personas](understanding-personas.md)** - Simple guide to Sentra's 8 AI helpers
-- **[Quick Reference](quick-reference.md)** - Commands, shortcuts, and common tasks
+### 👥 [User Documentation](user/README.md)
+**Perfect for:** Business owners, project managers, entrepreneurs, and anyone who wants to build software with AI assistance
 
-### Technical Documentation  
-- **[API Reference](api-reference.md)** - Complete REST and WebSocket API documentation
-- **[Architecture Guide](architecture.md)** - Deep dive into system design and components
-- **[Integration Guide](integrations.md)** - Setting up Linear, GitHub, Figma, and other services
+**You'll learn:**
+- How to install and set up Sentra
+- Understanding your 8 AI personas (explained simply!)
+- Building real projects step-by-step
+- Managing your AI development team
+- Getting the most value from autonomous development
 
-### Advanced Usage
-- **[Configuration Guide](configuration.md)** - Customizing personas, permissions, and workflows
-- **[Dashboard Guide](dashboard.md)** - Using the real-time monitoring interface
-- **[Permission System](permissions.md)** - Understanding approval workflows and security
-
-### Development & Contribution
-- **[Contributing Guide](contributing.md)** - How to contribute to Sentra development
-- **[Testing Guide](testing.md)** - Running and writing tests
-- **[Deployment Guide](deployment.md)** - Production deployment strategies
-
-### Troubleshooting & Support
-- **[Troubleshooting](troubleshooting.md)** - Common issues and solutions
-- **[FAQ](faq.md)** - Frequently asked questions
-- **[Changelog](../CHANGELOG.md)** - Version history and updates
-
-## 🚀 Quick Navigation
-
-### New to Sentra?
-Start with the **[Getting Started Guide](getting-started.md)** and **[Understanding Personas](understanding-personas.md)** to learn the basics.
-
-### Ready to Build?
-Check out the **[Configuration Guide](configuration.md)** and **[Integration Guide](integrations.md)** to set up your development environment.
-
-### Need Technical Details?
-Dive into the **[API Reference](api-reference.md)** and **[Architecture Guide](architecture.md)** for complete technical specifications.
-
-### Having Issues?
-Visit the **[Troubleshooting Guide](troubleshooting.md)** and **[FAQ](faq.md)** for solutions to common problems.
-
-## 🎯 Key Concepts
-
-### The 8 AI Personas
-Sentra includes 8 specialized AI personas, each expert in different aspects of software development:
-
-1. **Requirements Analyst Master** - Project planning and stakeholder analysis
-2. **UI/UX Designer Master** - Design and user experience
-3. **Frontend Developer Master** - User interfaces and client-side development
-4. **Backend Architect Master** - Server-side systems and APIs
-5. **QA Engineer Master** - Testing and quality assurance
-6. **Security Analyst Master** - Security and compliance
-7. **Technical Writer Master** - Documentation and communication
-8. **DevOps Engineer Master** - Deployment and infrastructure
-
-### Context Management
-Sentra prevents AI hallucinations by enforcing a <40% context usage rule across all personas, with automatic cleanup and intelligent task decomposition.
-
-### Permission System
-Interactive approval workflows with SMS/Push notifications ensure safe execution of potentially risky operations, with comprehensive audit trails.
-
-### Real-time Dashboard
-WebSocket-powered monitoring interface provides live updates on agent status, task progress, system metrics, and permission requests.
-
-## 🛠 Core Features
-
-- **Autonomous Task Execution** - AI personas work independently with minimal human intervention
-- **Intelligent Task Routing** - Automatic assignment to the best-suited persona
-- **Context-Aware Processing** - Prevents hallucinations through smart context management
-- **Interactive Permissions** - Multi-channel approval system for risky operations
-- **Real-time Monitoring** - Live dashboard with metrics and controls
-- **Comprehensive Integrations** - Linear, GitHub, Figma, Twilio, Pushover, Playwright
-- **95% Test Coverage** - Enterprise-grade quality and reliability
-- **TypeScript Strict Mode** - Zero tolerance for type errors
-
-## 📖 Documentation Conventions
-
-### Code Examples
-All code examples are tested and verified. Language-specific examples are provided where applicable:
-
-```bash
-# CLI commands
-sentra init --interactive
-
-# Environment variables  
-export LINEAR_API_KEY="your_key_here"
-```
-
-```typescript
-// TypeScript/JavaScript examples
-import { SentraClient } from '@sentra/cli';
-const client = new SentraClient();
-```
-
-### Status Indicators
-- ✅ **Completed features** - Ready for production use
-- 🚧 **In development** - Coming in future releases  
-- ⚠️ **Important notes** - Critical information to remember
-- 💡 **Tips and tricks** - Helpful recommendations
-
-### Navigation Links
-All documentation is cross-linked for easy navigation. Use the links in each document to jump between related topics.
-
-## 🤝 Contributing to Documentation
-
-We welcome contributions to improve our documentation! Here's how to help:
-
-1. **Report Issues** - Found something unclear or incorrect? Create an issue on GitHub
-2. **Suggest Improvements** - Have ideas for better explanations or examples? We'd love to hear them
-3. **Submit Updates** - Fix typos, add examples, or write new sections via pull requests
-4. **Translation** - Help us translate documentation for international users
-
-### Documentation Standards
-- **Clarity First** - Write for users at all skill levels
-- **Examples Required** - Every concept needs a practical example
-- **Test Everything** - All code examples must be tested and working
-- **Link Liberally** - Cross-reference related topics extensively
-
-## 📞 Getting Help
-
-- **GitHub Issues** - Report bugs and request features
-- **GitHub Discussions** - Ask questions and share ideas  
-- **Email Support** - Technical support for enterprise users
-- **Community** - Join our community for peer support
-
-## 📄 License
-
-This documentation is part of Sentra CLI and is licensed under the MIT License. See the [LICENSE](../LICENSE) file for details.
+**Start here if you want to:** Build software projects without needing to code yourself
 
 ---
 
-*Documentation written by the Technical Writer Master persona, because even AI documentation deserves the expert touch! 🤖✍️*
+### 🛠 [Developer Documentation](developer/README.md)
+**Perfect for:** Software developers, DevOps engineers, technical teams, and contributors
+
+**You'll learn:**
+- System architecture and technical design
+- REST and WebSocket API specifications
+- Integration development and customization
+- Contributing to the Sentra codebase
+- Advanced deployment and monitoring
+
+**Start here if you want to:** Integrate with Sentra APIs, extend functionality, or contribute code
+
+---
+
+## 🚀 Quick Start by Role
+
+### I'm a Business Owner / Entrepreneur
+👉 **[User Quick Start Guide](user/quick-start.md)** - Get your first AI project running in 10 minutes
+
+### I'm a Project Manager
+👉 **[User Documentation](user/README.md)** - Learn to coordinate AI development teams
+
+### I'm a Software Developer
+👉 **[Developer API Reference](developer/api/rest-api.md)** - Integrate with Sentra programmatically
+
+### I'm a DevOps Engineer
+👉 **[Developer Deployment Guide](developer/deployment/deployment-guide.md)** - Deploy Sentra in production
+
+### I'm Contributing to Sentra
+👉 **[Developer Contributing Guide](developer/contributing/contributing-guide.md)** - Join our development community
+
+---
+
+## 🎯 What is Sentra CLI?
+
+Sentra CLI is the intelligent Claude Code command center for autonomous project execution. It provides:
+
+### For Users (Business Focus)
+- **8 AI Specialists** working as your development team
+- **Natural Language Planning** - describe what you want to build
+- **Autonomous Execution** - AI handles the technical implementation
+- **Progress Tracking** - real-time visibility into development progress
+- **Quality Assurance** - 95% test coverage and professional standards
+
+### For Developers (Technical Focus)
+- **Event-Driven Architecture** with comprehensive APIs
+- **TypeScript-First** with strict type safety
+- **Microservice Integration** with Linear, GitHub, Figma, and more
+- **Real-Time Dashboard** with WebSocket communication
+- **Enterprise Security** with permission workflows and audit trails
+
+---
+
+## 📋 Documentation Overview
+
+### User Documentation Structure
+```
+docs/user/
+├── README.md                    # User documentation index
+├── quick-start.md              # 10-minute getting started
+├── understanding-personas.md    # Meet your 8 AI helpers
+├── dashboard-guide.md          # Using the monitoring interface
+├── workflows/                  # Step-by-step project guides
+├── integrations/              # Setting up external services
+└── troubleshooting.md         # Common issues and solutions
+```
+
+### Developer Documentation Structure
+```
+docs/developer/
+├── README.md                   # Developer documentation index
+├── architecture.md            # System design and components
+├── api/                       # REST, WebSocket, CLI APIs
+├── integrations/              # Building custom integrations
+├── extensions/                # Plugin and persona development
+├── testing/                   # Testing strategies and tools
+├── deployment/                # Production deployment guides
+└── contributing/              # How to contribute code
+```
+
+---
+
+## 🤝 Community & Support
+
+### For All Users
+- **[GitHub Issues](https://github.com/barnent1/sentra-cli/issues)** - Bug reports and feature requests
+- **[GitHub Discussions](https://github.com/barnent1/sentra-cli/discussions)** - Questions and community support
+- **[Community Forum](https://community.sentra.ai)** - Share projects and get advice
+
+### Developer-Specific
+- **[Developer Discord](https://discord.gg/sentra-dev)** - Real-time technical discussions
+- **[API Status Page](https://status.sentra.ai)** - Service availability and updates
+- **[Developer Blog](https://blog.sentra.ai)** - Technical deep-dives and tutorials
+
+---
+
+## 📞 Getting Help
+
+**Choose the right support channel:**
+
+### User Support
+- **[User FAQ](user/faq.md)** - Common questions answered
+- **[User Troubleshooting](user/troubleshooting.md)** - Step-by-step problem solving
+- **[Live Chat](https://sentra.ai/chat)** - Immediate assistance
+- **[Email Support](mailto:support@sentra.ai)** - Detailed help requests
+
+### Developer Support  
+- **[Developer FAQ](developer/faq.md)** - Technical questions answered
+- **[API Documentation](developer/api/rest-api.md)** - Complete technical reference
+- **[GitHub Issues](https://github.com/barnent1/sentra-cli/issues)** - Bug reports and features
+- **[Developer Email](mailto:developers@sentra.ai)** - Technical integration support
+
+---
+
+*Not sure which path to choose? Start with [User Documentation](user/README.md) - you can always dive deeper into technical details later!* 🚀
